@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body {
+    font-size: 13px;
+
+}
+
+button {
+    background-color: #0061FF;
+    color: white;
+}
+h1 {
+    font-size: 57px;
+    margin-bottom: 35px;
+    
+}
+
+
+header {
+    
+    
+    box-shadow: 0px 0px 10px 2px  #C9CFD0 ;
+    
+}
+.row-head {
+    width: 100%;
+    display: flex;
+    padding: 17px;
+    
+}
+
+.col-head1{
+    width: 10%;
+
+    
+    }
+
+.col-head2{
+    width: 45%;
+    margin-top: 5px;
+    
+
+   
+}
+.col-head3{
+    width: 45%;
+    text-align: end;
+}
+
+.logo{
+    width: 110px;
+    position: absolute;
+    top: 2.55%;
+    
+   
+    
+}
+
+
+.head-choices{
+    margin-left: 25px;
+
+}
+.head-btn{
+    
+    margin-left: 6px;
+    padding: 3px 10px;
+
+}
+
+#spazio-header-main {
+    height:50px;
+    background-color: #B4D0E7 ;
+}
+
+
+
+
+
+
+
+
+.jumbo {
+    background-color: #B4D0E7;
+    
+    
+}
+
+.container-jumbo {
+    width: 60%;
+    margin:0 auto;
+    
+}
+
+
+
+.row-jumbo {
+    width: 100%;
+    display: flex;
+
+}
+.col1-jumbo {
+    width: 34%;
+
+}
+.col2-jumbo {
+    width: 66%;
+    
+}
+.jumbo-btn{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 6px 12px;
+
+}
+.jumbo-img {
+   width: 660px;
+   position: absolute;
+   top: 40.5%;
+   left: 39%;
+}
+.arrow {
+    font-size:  32px;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    
+    
+}
