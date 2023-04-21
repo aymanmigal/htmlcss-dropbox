@@ -269,7 +269,7 @@ margin-bottom: 18px;
 
 }
 
-hr {
+.hr-package{
     width: 22%;
     margin-top: 35px;
     margin-bottom: 40px;
@@ -628,13 +628,28 @@ background-color: #D5001F ;
 
 
 /*FINE PARTE RECTANGLE "PORTA DROPBOX NELLA TUA AZIENDA"(section7)*/
-    
-    
-    
-    
-    
 
 
 
 
     
+/*INIZIO FAQ'S (section8)*/
+    
+
+.titolo-faq{
+    margin-top: 120px;
+}
+
+.questions{
+    margin: 30px 0;
+}
+
+
+.arrow-down {
+margin-left: 30%;
+}
+.faq {
+    margin-bottom: 120px;
+}
+
+ /*FINE FAQ'S (section8)*/
