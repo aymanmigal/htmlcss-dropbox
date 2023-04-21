@@ -7,7 +7,7 @@
     
 }
 body {
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -16,6 +16,7 @@ button {
     background-color: #0061FF;
     color: white;
     border: none;
+    font-size: 14px;
 }
 .blue {
     color: #0061FF;;
@@ -27,7 +28,7 @@ h1 {
     
 }
 h2 {
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 30px;
 }
 h3 {
@@ -39,6 +40,7 @@ h3 {
 
 /*HEADER*/
 
+
 header {
     box-shadow: 0px 0px 10px 2px  #C9CFD0 ;
     position: fixed;
@@ -48,25 +50,30 @@ header {
     margin-bottom: 50px;
     z-index: 100;
     background-color: #FFFFFF;
+    }
+     
     
     
-}
+
 .row-head {
     width: 100%;
     display: flex;
     padding: 17px;
+    padding-top: 18px;
     
 }
 
 .col-head1{
     width: 10%;
 
+
     
     }
 
 .col-head2{
     width: 45%;
-    margin-top: 5px;
+    margin-left: -20px;
+    
     
 
    
@@ -79,7 +86,7 @@ header {
 .logo{
     width: 110px;
     position: absolute;
-    bottom: 30.25%;
+    bottom: 38%;
 }
 
 
@@ -90,7 +97,7 @@ header {
 .head-btn{
     
     margin-left: 6px;
-    padding: 3px 10px;
+    padding: 6px 10px;
 
 }
 
@@ -131,36 +138,39 @@ header {
 
 }
 .col1-jumbo {
-    width: 34%;
+    width: 28%;
 
 }
 .col2-jumbo {
-    width: 66%;
+    width: 72%;
     
 }
 .jumbo-btn{
     
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 6px 12px;
+    padding: 9px 12px;
 
 }
 .jumbo-img {
-   width: 45%;
-   height: 75%;
+   width: 47%;
+   height: 72.2%;
    position: absolute;
-   top: 36.5%;
-   left: 38.5%;
+   top: 39.3%;
+   left: 35.4%;
 }
 .arrow {
     font-size:  32px;
     margin-top: 60px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     
     
 }
 .position-relative {
     position: relative;
+}
+#titolo-jumbo {
+    font-size: 69px;
 }
 
 
@@ -186,24 +196,31 @@ header {
     margin-left: -7.5px;
 }
 
+
+
 .row-package {
     display: flex;
     width: 100%;
     margin-top: 32px;
     margin-bottom: 40px;
+    
 }
 
 .col-package {
-    width: 100%;
+
+    width: calc(100% / 3 - 20px);
     border: solid 1px rgb(123, 114, 114);
-    font-size: 13px;
     background-color: #FFFFFF;
+    
+    
 }
 
 #col2-package {
-    margin: 0px 30px;
-    border: none;
+    margin: 0 30px;
+    
+    
 }
+
 .singolo-team-azienda {
     
     border-bottom: solid 1px  rgb(123, 114, 114);
@@ -236,18 +253,20 @@ header {
     margin-right: 6px;
 }
 .btn-package {
-    padding: 10px 32px;
+    padding: 10px 34px;
     margin-top: 20px;
     margin-bottom: 18px;
-    margin-left: 7px;
+    
+    
     
 }
+
 #btn-contattaci {
 
-padding: 10px 77px;
+padding: 10px 83px;
 margin-top: 20px;
 margin-bottom: 18px;
-margin-left: 7px;
+
 }
 
 hr {
@@ -358,3 +377,264 @@ hr {
 
 /*FINE PARTE "ENTRA IN CONTATTO CON UN PARTNER DROPBOX" (section4)*/
 
+
+
+#spazio-sec4-sec5{
+    height: 120px;
+}
+
+
+/*INIZIO PARTE "ESEGUI PIU' OPERAZIONI..." (section5)*/
+
+.row-sec5 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    
+}
+
+.col-sec5{
+    width: calc(100% / 3 - 23px );
+    margin-bottom: 70px;
+    
+    
+}
+
+.central-col{
+    margin-left:  34.5px;
+    margin-right:  34.5px;
+}
+
+
+.img-sec5 {
+    width: 100% ;
+    height: 65% ;
+}
+.titoli-sec5 {
+    margin-bottom: 20px;
+}
+
+
+.row2-sec5 {
+    width: 60%;
+}
+#link-client {
+    margin-top: 20px;
+
+}
+
+/*FINE PARTE "ESEGUI PIU' OPERAZIONI..." + REF CLIENTI (section5)*/
+
+
+
+/*INIZIO PARTE SQUARES CLIENT (section6)*/
+
+
+.row-square{
+    
+    height: 60vh;
+    display: flex;
+    margin-top: 120px;
+    
+    
+
+}
+.col-square{
+    width: 33.3%;
+    
+    
+}
+.sub-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.sub-col {
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+       
+}
+.light-green-square {
+    background-color: #D1E9CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+
+}
+.green-square {
+    height: 100%;
+    width: 100%;
+    background-color: #A2D39B;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img-green-square {
+    height: 21%;
+    filter: brightness(0) invert(1);
+   
+    
+}
+.img-bordeux-square
+{
+    height: 43%;
+    filter: brightness(0) invert(1);
+}
+.bordeux-square {
+    background-color: #5B0828;
+
+}
+.img-blue-square {
+    height: 13%;
+    filter: brightness(0) invert(1);
+
+}
+
+.blue-square {
+    background-color: #0093CE;
+}
+.img-red-square {
+    height: 29%;
+    filter: brightness(0) invert(1);
+
+}
+
+
+.red-square {
+    background-color: #FF1C1C;
+}
+
+
+
+.white-smoke {
+    background-color: #F5F5F5;
+}
+
+.mid-square-container {
+    width: 84%;
+    margin: 0 auto;
+}
+#img-mid-square {
+    height: 4.4rem;
+    margin-top: 9%;
+}
+#horizontal-21 {
+    width: 21%;
+    margin: 6.5% 0;
+}
+#autore {
+    margin-top: 10%;
+}
+
+.red2-square {
+background-color: #D5001F ;
+}
+
+.img-red2-square {
+    height: 20%;
+    filter: brightness(0) invert(1);
+
+    
+}
+.heavenly-square {
+    background-color: #B4D0E7;
+}
+
+
+
+.img-heavenly-square {
+    height: 7%;
+    filter: brightness(0) invert(1);
+
+    
+}
+.blue2-square {
+
+    background-color: #0D2481;
+}
+
+.img-blue2-square {
+    height: 30%;
+    filter: brightness(0) invert(1);
+
+    
+}
+.yellow-square {
+
+    background-color: #fdd41d;
+}
+
+.img-yellow-square {
+    height: 35%;
+    filter: brightness(0) invert(1);
+
+    
+}
+/*FINE PARTE SQUARES CLIENT (section6)*/
+
+
+
+
+/*INIZIO PARTE RECTANGLE "PORTA DROPBOX NELLA TUA AZIENDA"(section7)*/
+
+.heavenly {
+    background-color: #B4D0E7;
+}
+
+.row-rectangle{
+    
+    height: 40vh;
+    display: flex;
+
+}
+.col1-rectangle{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.col2-rectangle{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    transform: translate(0,-11%);
+    
+    
+}
+#btn-rectangle{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+}
+    #titolo-rectangle{
+        color: #5B0828;
+
+    }
+
+
+/*FINE PARTE RECTANGLE "PORTA DROPBOX NELLA TUA AZIENDA"(section7)*/
+    
+    
+    
+    
+    
+
+
+
+
+    
