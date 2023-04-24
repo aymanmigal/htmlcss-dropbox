@@ -16,6 +16,7 @@ body {
     color: white;
     border: none;
     font-size: 14px;
+    
 }
 .blue {
     color: #0061FF;;
@@ -169,10 +170,10 @@ header {
 
 }
 .jumbo-img {
-   width: 47%;
-   height: 72.2%;
+   width: 48%;
+   height: 73.2%;
    position: absolute;
-   top: 39.3%;
+   top: 38%;
    left: 35.4%;
 }
 .arrow {
@@ -382,6 +383,7 @@ margin-bottom: 18px;
     color:black;
     padding: 7.5px 10px;
     margin-top: 21px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*FINE PARTE "ENTRA IN CONTATTO CON UN PARTNER DROPBOX" (section4)*/
@@ -799,6 +801,7 @@ select {
 .panel {
     display: none;
     z-index: 1;
+    cursor: pointer;
 }
 .drop-questions:hover .arrow-down{
     display: none;
