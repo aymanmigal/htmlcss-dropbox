@@ -11,8 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-
-button {
+.btn {
     background-color: #0061FF;
     color: white;
     border: none;
@@ -92,12 +91,27 @@ header {
 
 .head-choices{
     margin-left: 25px;
+    text-decoration: none;
+    color: black;
+   
+    
+
 
 }
 .head-btn{
     
     margin-left: 6px;
     padding: 5.5px 12px;
+
+}
+#btn-inizia {
+    margin-left: 6px;
+    padding: 5.5px 12px;
+    background-color: #0061FF;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
 
 }
 
@@ -200,6 +214,7 @@ header {
 
 
 
+
 .row-package {
     display: flex;
     width: 100%;
@@ -211,7 +226,7 @@ header {
 .col-package {
 
     width: calc(100% / 3 - 20px);
-    border: solid 1px rgb(123, 114, 114);
+    border: solid 1px #c4c2c2;
     background-color: #FFFFFF;
     
     
@@ -225,7 +240,7 @@ header {
 
 .singolo-team-azienda {
     
-    border-bottom: solid 1px  rgb(123, 114, 114);
+    border-bottom: solid 1px  #c4c2c2;
     text-align: center;
     padding: 6.5px 0px;
    
@@ -257,18 +272,13 @@ header {
 .btn-package {
     padding: 10px 34px;
     margin-top: 20px;
-    margin-bottom: 18px;
-    
-    
-    
+    margin-bottom: 18px;   
 }
 
 #btn-contattaci {
-
 padding: 10px 83px;
 margin-top: 20px;
 margin-bottom: 18px;
-
 }
 
 .hr-package{
@@ -313,16 +323,13 @@ margin-bottom: 18px;
 
 }
 #plan-container2 {
-    
-    border: 1px solid rgb(123, 114, 114);
-    
+ border: 1px solid #c4c2c2;    
 }
 
 #btn-enterprise {
     padding: 9px 30px;
     margin-top: 25px;
     margin-right: 7px;
-
 }
 
 #contact-invitation {
@@ -644,12 +651,18 @@ background-color: #D5001F ;
 }
 
 .questions{
-    margin: 30px 0;
+    padding: 30px 0;
+    cursor: pointer;
+    display: inline-block;
+    
 }
-
+.drop-questions{
+    padding-left: 20px;
+}
 
 .arrow-down {
 margin-left: 30%;
+display: inline-block;
 }
 .faq {
     margin-bottom: 120px;
@@ -658,6 +671,8 @@ margin-left: 30%;
  /*FINE FAQ'S (section8)*/
 
 
+
+/*INIZIO FOOTER*/
 
  footer {
     background-color: black;
@@ -714,4 +729,109 @@ select {
 #hr-final {
     background-color: white;
     
+}
+
+
+/*FINE FOOTER*/
+
+
+
+
+
+
+
+/*BONUS*/
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 16px;
+    padding-top:16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+
+  }
+  
+  
+  .sub-heads {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 16px;
+    text-align: left;
+
+    
+  }
+  .dropdown:hover .head-choices {
+    background-color: #f9f9f9e3;
+    
+    
+
+  }
+
+  .sub-heads:hover {
+    background-color: #dfdfdf;
+    
+    
+
+  }
+
+
+
+
+
+
+
+
+.panel {
+    display: none;
+    z-index: 1;
+}
+.drop-questions:hover .arrow-down{
+    display: none;
+
+}
+.drop-questions:hover{
+    background-color: #F3F0EB;
+}
+
+  
+.drop-questions:hover .panel {
+    display: block;
+    padding-bottom: 30px;
+    
+
+  }
+  .arrow-down {
+    cursor: pointer;
+
+
+}
+.arrow-up {
+   display: none;
+   margin-left: 30%;
+   cursor: pointer;
+
+}
+.drop-questions:hover:hover .arrow-up{
+    display: inline-block;
+
+
+}
+.drop-questions:hover:hover .arrow-down {
+    display: none;
+
 }
