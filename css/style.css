@@ -186,7 +186,7 @@ header {
 .position-relative {
     position: relative;
 }
-#titolo-jumbo {
+.content-jumbo h1 {
     font-size: 69px;
 }
 
@@ -320,25 +320,23 @@ margin-bottom: 18px;
 .col2-enterprise {
     width: 30.4%;
     text-align: center;
-    
-
 }
 #plan-container2 {
  border: 1px solid #c4c2c2;    
 }
 
-#btn-enterprise {
+.col2-enterprise button{
     padding: 9px 30px;
     margin-top: 25px;
     margin-right: 7px;
 }
 
-#contact-invitation {
+.professional-advanced-entreprise h4 {
     margin-top: 14px;
     margin-bottom: 35px;
 }
 
-#enterprise-title {
+.professional-advanced-entreprise h3 {
     margin-top: 5px;
 }
 
@@ -366,18 +364,16 @@ margin-bottom: 18px;
     
 
 }
-#partner {
+.col1-sec4 img {
     width: 93%;
     height: 100%;
-    
-
 }
-#titolo-sec4{
+.col2-sec4 h3{
     margin-top: 46px;
     margin-bottom: 12px;
 }
 
-#white-btn {
+.col2-sec4 button {
     background-color: #FFFFFF;
     border: solid 1px black; 
     color:black;
@@ -413,17 +409,18 @@ margin-bottom: 18px;
     
 }
 
+
 .central-col{
     margin-left:  34.5px;
     margin-right:  34.5px;
 }
 
 
-.img-sec5 {
+.col-sec5 img {
     width: 100% ;
     height: 65% ;
 }
-.titoli-sec5 {
+.col-sec5 h3 {
     margin-bottom: 20px;
 }
 
@@ -431,7 +428,7 @@ margin-bottom: 18px;
 .row2-sec5 {
     width: 60%;
 }
-#link-client {
+.row2-sec5 div {
     margin-top: 20px;
 
 }
@@ -493,13 +490,13 @@ margin-bottom: 18px;
     align-items: center;
     display: flex;
 }
-.img-green-square {
+.green-square img {
     height: 21%;
     filter: brightness(0) invert(1);
    
     
 }
-.img-bordeux-square
+.bordeux-square img
 {
     height: 43%;
     filter: brightness(0) invert(1);
@@ -508,7 +505,7 @@ margin-bottom: 18px;
     background-color: #5B0828;
 
 }
-.img-blue-square {
+.blue-square img {
     height: 13%;
     filter: brightness(0) invert(1);
 
@@ -517,7 +514,7 @@ margin-bottom: 18px;
 .blue-square {
     background-color: #0093CE;
 }
-.img-red-square {
+.red-square img {
     height: 29%;
     filter: brightness(0) invert(1);
 
@@ -538,15 +535,15 @@ margin-bottom: 18px;
     width: 84%;
     margin: 0 auto;
 }
-#img-mid-square {
+.mid-square-container img {
     height: 4.4rem;
     margin-top: 9%;
 }
-#horizontal-21 {
+.mid-square-container hr {
     width: 21%;
     margin: 6.5% 0;
 }
-#autore {
+.mid-square-container div {
     margin-top: 10%;
 }
 
@@ -554,11 +551,9 @@ margin-bottom: 18px;
 background-color: #D5001F ;
 }
 
-.img-red2-square {
+.red2-square img{
     height: 20%;
     filter: brightness(0) invert(1);
-
-    
 }
 .heavenly-square {
     background-color: #B4D0E7;
@@ -566,7 +561,7 @@ background-color: #D5001F ;
 
 
 
-.img-heavenly-square {
+.heavenly-square img {
     height: 7%;
     filter: brightness(0) invert(1);
 
@@ -577,7 +572,7 @@ background-color: #D5001F ;
     background-color: #0D2481;
 }
 
-.img-blue2-square {
+.blue2-square img {
     height: 30%;
     filter: brightness(0) invert(1);
 
@@ -588,7 +583,7 @@ background-color: #D5001F ;
     background-color: #fdd41d;
 }
 
-.img-yellow-square {
+.yellow-square img {
     height: 35%;
     filter: brightness(0) invert(1);
 
@@ -623,19 +618,17 @@ background-color: #D5001F ;
     display: flex;
     justify-content: end;
     align-items: center;
-    transform: translate(0,-11%);
-    
-    
+    transform: translate(0,-11%);    
 }
-#btn-rectangle{
+.col2-rectangle button{
     background-color: white;
     color: black;
     padding: 10px 40px;
 }
-    #titolo-rectangle{
+.col1-rectangle h2{
         color: #5B0828;
 
-    }
+}
 
 
 /*FINE PARTE RECTANGLE "PORTA DROPBOX NELLA TUA AZIENDA"(section7)*/
@@ -647,7 +640,7 @@ background-color: #D5001F ;
 /*INIZIO FAQ'S (section8)*/
     
 
-.titolo-faq{
+.faq h2{
     margin-top: 120px;
     margin-bottom: 45px;
 }
@@ -658,7 +651,7 @@ background-color: #D5001F ;
     display: inline-block;
     
 }
-.drop-questions{
+.faq > div{
     padding-left: 20px;
 }
 
@@ -696,8 +689,7 @@ display: inline-block;
     
 }
 .titolo-foot {
-    
-    margin-bottom: 23px;
+     margin-bottom: 23px;
     font-size: 19px;
 }
 
@@ -705,15 +697,11 @@ display: inline-block;
     margin-top: 10px;
     font-size: 13px;
 }
-#hr-foot {
+.container-jumbo-footer hr {
     background-color: white;
     width: 10%;
     margin-top: 85px;
     margin-bottom: 40px;
-}
-
-.icon-world {
-
 }
 
 select {
@@ -728,7 +716,7 @@ select {
 .language {
     margin-bottom: 30px;
 }
-#hr-final {
+footer hr {
     background-color: white;
     
 }
@@ -837,4 +825,8 @@ select {
 .drop-questions:hover:hover .arrow-down {
     display: none;
 
+}
+
+.radio {
+    
 }
